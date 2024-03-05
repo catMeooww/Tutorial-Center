@@ -1,0 +1,58 @@
+.menu{
+  width: 99%;
+  z-index: 20px;
+  position: fixed;
+}
+
+.menuoptions {
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.menuheader {
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.grid {
+  /* adicione o código correto para colocar os elementos da grade
+  um ao lado do outro igualmente.   */
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
+
+.languages{
+  width: 50%;
+}
